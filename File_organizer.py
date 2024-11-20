@@ -13,7 +13,7 @@ def organize_files(directory):
         'Audio': ['.mp3', '.wav', '.aac', '.flac'],
         'Archives': ['.zip', '.rar', '.tar', '.gz', '.7z'],
         'Code': ['.py', '.java', '.cpp', '.html', '.css', '.js'],
-        'Others': []  # For files without a matching extension
+        'Others': []
     }
 
     for folder in extensions.keys():
